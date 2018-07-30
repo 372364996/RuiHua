@@ -68,6 +68,9 @@ namespace RuiHuaComponents.Repositories.Ef
                     .WillCascadeOnDelete(false);
             }
         }
+        public DbSet<UserInfo> UserInfo { get; set; }
+        public DbSet<Vacation> Vacation { get; set; }
+        public DbSet<VacationDetail> VacationDetail { get; set; }
     }
 
    
