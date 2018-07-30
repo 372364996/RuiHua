@@ -19,5 +19,6 @@ namespace RuiHuaComponents.Domains
         /// 请假类型名称
         /// </summary>
         public string Name { get; set; }
+        public List<VacationDetail> VacationDetails { get; set; }
     }
 }

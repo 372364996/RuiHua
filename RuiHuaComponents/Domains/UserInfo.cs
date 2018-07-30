@@ -19,5 +19,6 @@ namespace RuiHuaComponents.Domains
         /// 用户名称
         /// </summary>
         public string  UserName { get; set; }
+        public List<VacationDetail> VacationDetails { get; set; }
     }
 }

@@ -18,5 +18,7 @@ namespace RuiHuaComponents.Domains
         public int VacationType { get; set; }
         public int VacationDays { get; set; }
         public int UserID { get; set; }
+        public virtual UserInfo UserInfo { get; set; }
+        public virtual Vacation Vacation { get; set; }
     }
 }
